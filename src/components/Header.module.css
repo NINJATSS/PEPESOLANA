@@ -9,7 +9,7 @@
 
 @media (min-height: 800px) {
   .wrapper {
-    background: #000000CC;
+    background: #0000003c;
     backdrop-filter: blur(20px);
     -webkit-backdrop-filter: blur(20px);
     padding: 10px 20px;
@@ -29,10 +29,8 @@
   align-items: center;
   gap: 1em;
   transition: background .2s;
-  border-radius: 5px;
   white-space: nowrap;
   padding: 5px 10px;
-  filter: drop-shadow(-1px 1px 1px #00000033)
 }
 
 .logo:hover {
@@ -41,4 +39,25 @@
 
 .logo > img {
   height: 30px;
+}
+
+.title {
+  display: none;
+}
+
+@media (min-width: 800px) {
+  .title {
+    display: block;
+  }
+}
+
+.iconContainer {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.icon {
+  color: var(--icon-color, #ffffff); 
+  font-size: 1.5em; 
 }
