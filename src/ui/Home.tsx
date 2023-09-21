@@ -9,7 +9,7 @@ export function Home() {
     <div className={styles.banner}>
       <Section>
         <h2>
-          Gamba Demo
+          PEPESOLANA
         </h2>
         <p style={{ wordWrap: 'break-word' }}>
           A decentralized, provably-fair casino built on Gamba.
