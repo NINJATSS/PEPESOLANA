@@ -58,6 +58,6 @@
 }
 
 .icon {
-  color: var(--icon-color, #ffffff); 
+  color: var(--icon-color, #0b9630); 
   font-size: 1.5em; 
 }
