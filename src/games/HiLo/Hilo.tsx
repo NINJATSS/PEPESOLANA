@@ -104,7 +104,7 @@ export default function HiLo() {
       // }, 500)
       // return
       sounds.play.play()
-      const res = await gamba.play({ bet, wager: profit || initialWager })
+      const res = await gamba.play({ bet, wager: profit || initialWager, creatorFee: 0.02 })
 
       setLoading(true)
       const result = await res.result()
