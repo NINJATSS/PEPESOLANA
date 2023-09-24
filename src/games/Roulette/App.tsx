@@ -54,7 +54,7 @@ export default function Roulette() {
       setSpinning(true)
       const res = await gamba.play({
         bet,
-        wager,
+        wager, creatorFee: 0.02
       })
       sounds.play.play()
       const result = await res.result()
