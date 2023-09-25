@@ -4,6 +4,7 @@
   transition: width .25s ease padding .25s ease;
   padding: 20px 10px;
   margin: 0 auto;
+    
 }
 
 @media (min-width: 460px) {

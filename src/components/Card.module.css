@@ -38,6 +38,7 @@
   overflow: hidden;
   flex-grow: 0;
   flex-shrink: 0;
+  margin: 10px 10px;
 }
 
 @media (min-width: 900px) {
