@@ -32,7 +32,7 @@
   cursor: pointer;
   border-radius: 10px;
   aspect-ratio: var(--card-aspect-ratio);
-  width: 160px;
+  width: 140px;
   transition: width .25s ease, transform .2s ease, aspect-ratio .2s ease;
   max-height: 100%;
   overflow: hidden;
