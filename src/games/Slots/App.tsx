@@ -108,7 +108,7 @@ export default function Slots() {
 
       const res = await gamba.play({
         wager,
-        bet, creatorFee: 0.02
+        bet, creatorFee: 0.03
       })
 
       setRevealedSlots(0)
