@@ -42,7 +42,7 @@ export default function Dice() {
 
       const res = await gamba.play({
         bet,
-        wager, creatorFee: 0.02
+        wager, creatorFee: 0.03
       })
 
       const result = await res.result()
